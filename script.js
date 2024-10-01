@@ -1,5 +1,6 @@
 const upper_screen = document.getElementById('upper')
 const lower_screen = document.getElementById('lower')
+
 const buttons = document.querySelectorAll('.btn')
 
 buttons.forEach((button) =>{
