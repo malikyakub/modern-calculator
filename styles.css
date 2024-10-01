@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 271px;
+    height: 593px;
+    background-color: #1E3E62;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container .screen{
+    width: 100%;
+    margin-top: 75px;
+    
+}
+.container .screen input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+    cursor: auto;
+}
+.container .screen #lower{
+    font-weight: bold;
+    font-size: 40px;
+}
+.container .screen #upper{
+    font-weight: lighter;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.container .screen input:focus{
+    outline: none;
+}
+.container h1{
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.container .buttons{
+    background-color: #0B192C;
+    height: 373px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.container .buttons .btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.container .buttons .operation{
+    color: #3582d4;
+}
+.container .buttons .equal{
+    background-color: #3582d4;
+    margin-inline: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.container .buttons .equal:hover{
+    background-color: #2f71b8;
+}
+.container .buttons .del{
+    background-color: #f00;
+    margin-inline: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.container .buttons .del:hover{
+    background-color:  rgb(250, 106, 106);;
+}
+.container .buttons .clear{
+    color: #f00;
+}
+.container .buttons .clear:hover{
+    color: rgb(250, 106, 106);
+}
